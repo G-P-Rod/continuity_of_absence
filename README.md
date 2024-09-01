@@ -1,17 +1,17 @@
-# Continuity_of_absence Project
+# Continuity_of_absence
 
 
 ## Description
 This Python script, written in Jupyter Notebook format, combines and cleans data from .xlsx files located in a specified raw data directory.
-
+The program is designed to merge multiple rows into one when certain conditions are met. These conditions include the same type of absence for a given person, such as a medical leave, and continuity of dates between the end of one absence and the start of the next.
 
 ## Requirements
 - Python 3.x
 - Python libraries:
   - pandas
   - openpyxl
-- os library
-- glob library
+  - os 
+  - glob
 
 
 ## Key Functionalities
